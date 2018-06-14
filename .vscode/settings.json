@@ -1,0 +1,8 @@
+{
+	"typescript.tsc.autoDetect": "off",
+	"files.exclude": {
+		"C:/Users/chanypark/Documents/dev/VSCodeTemplate/.vscode": true,
+		"C:/Users/chanypark/Documents/dev/VSCodeTemplate/Content": true,
+		"C:/Users/chanypark/Documents/dev/VSCodeTemplate/Intermediate": true
+	}
+}

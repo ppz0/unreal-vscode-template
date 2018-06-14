@@ -1,0 +1,277 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"taskName": "VSCodeTemplate Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VSCodeTemplate",
+				"Win64",
+				"Debug",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplate Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VSCodeTemplate",
+				"Win64",
+				"Debug",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplate Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VSCodeTemplate",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplate Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VSCodeTemplate",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplate Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VSCodeTemplate",
+				"Win64",
+				"Development",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplate Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VSCodeTemplate",
+				"Win64",
+				"Development",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplate Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VSCodeTemplate",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplate Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VSCodeTemplate",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplate Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VSCodeTemplate",
+				"Win64",
+				"Test",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplate Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VSCodeTemplate",
+				"Win64",
+				"Test",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplateEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VSCodeTemplateEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplateEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VSCodeTemplateEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplateEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VSCodeTemplateEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplateEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VSCodeTemplateEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplateEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"VSCodeTemplateEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		},
+		{
+			"taskName": "VSCodeTemplateEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"VSCodeTemplateEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\chanypark\\Documents\\dev\\VSCodeTemplate\\VSCodeTemplate.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.18"
+			}
+		}
+	]
+}

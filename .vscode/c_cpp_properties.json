@@ -1,0 +1,61 @@
+{
+    "configurations": [
+        {
+            "name": "UnrealEngine",
+            "includePath": [
+                "C:/Users/chanypark/Documents/dev/unreal-vscode-template/Source/VSCodeTemplate/**",
+                "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/Core/Public/**",
+                "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/CoreUObject/Public/**",
+                "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/ApplicationCore/Public/**",
+                "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/Engine/Classes/**",
+                "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/Engine/Public/**",
+                "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/Json/Public/**",
+                "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/JsonUtilities/Public/**",
+                "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/XmlParser/Public/**",
+                "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/InputCore/Classes/**",
+                "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/InputCore/Public/**",
+                "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/GameplayTags/Classes/**",
+                "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/GameplayTags/Public/**",
+                "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/INCLUDE",
+                "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/ATLMFC/INCLUDE",
+                "C:/Program Files (x86)/Windows Kits/10/include/10.0.10240.0/ucrt",
+                "C:/Program Files (x86)/Windows Kits/NETFXSDK/4.6/include/um",
+                "C:/Program Files (x86)/Windows Kits/8.1/include/shared",
+                "C:/Program Files (x86)/Windows Kits/8.1/include/um",
+                "C:/Program Files (x86)/Windows Kits/8.1/include/winrt"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "browse": {
+                "path": [
+                    "C:/Users/chanypark/Documents/dev/unreal-vscode-template/Source/VSCodeTemplate/**",
+                    "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/Core/Public/**",
+                    "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/CoreUObject/Public/**",
+                    "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/ApplicationCore/Public/**",
+                    "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/Engine/Classes/**",
+                    "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/Engine/Public/**",
+                    "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/Json/Public/**",
+                    "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/JsonUtilities/Public/**",
+                    "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/XmlParser/Public/**",
+                    "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/InputCore/Classes/**",
+                    "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/InputCore/Public/**",
+                    "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/GameplayTags/Classes/**",
+                    "C:/Program Files/Epic Games/UE_4.18/Engine/Source/Runtime/GameplayTags/Public/**",
+                    "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/INCLUDE",
+                    "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/ATLMFC/INCLUDE",
+                    "C:/Program Files (x86)/Windows Kits/10/include/10.0.10240.0/ucrt",
+                    "C:/Program Files (x86)/Windows Kits/NETFXSDK/4.6/include/um",
+                    "C:/Program Files (x86)/Windows Kits/8.1/include/shared",
+                    "C:/Program Files (x86)/Windows Kits/8.1/include/um",
+                    "C:/Program Files (x86)/Windows Kits/8.1/include/winrt"
+                ]
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
